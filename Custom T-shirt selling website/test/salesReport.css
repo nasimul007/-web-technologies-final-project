@@ -1,0 +1,50 @@
+.tablecontent table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tablecontent table {
+    border-collapse: collapse;
+    width: 65%;
+    /*height: 50%;*/
+    margin-left: 380px;
+}
+
+.tablecontent th, td {
+	color: black;
+    padding: 15px;
+}
+.tablecontent tr:hover {background-color:#f5f5f5;}
+.tablecontent tr:nth-child(even) {background-color: #f2f2f2;}
+
+.tablecontent {
+	margin-left: 380px;
+	width: 70%;
+    padding: 0px 12px;
+}
+
+.buttonp {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px 4px 380px;
+    cursor: pointer;
+}
+
+#saleselect {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px 4px 380px;
+    cursor: pointer;
+}

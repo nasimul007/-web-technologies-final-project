@@ -1,0 +1,179 @@
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #33b5e5;
+    width: 25%;
+    height: 130px;
+	margin-left: 15px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #02a4ef;
+	color: #ffffff;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #35e0ff;
+	color: #ffffff;
+}
+
+/* Style the tab content */
+.tabcontent {
+	background-color: #35e0ff;
+	color: #ffffff;
+	margin-left: 5px;
+	display: none;
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 600px;
+}
+
+
+#box {
+	margin-bottom: 10px;
+	background-color: #33b5e5;
+	width: 200px;
+	height: 250px;
+	margin-left: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: inline-block;
+}
+
+#img {
+	width: 200px;
+	height: 200px;
+}
+
+div.ex1 {
+    background-color: lightblue;
+    width: 85%;
+    height: 88%;
+    overflow: auto;
+	margin-top: 15px;
+	margin-left: 80px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #33b5e5;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #02a4ef;}
+
+.button:active {
+  background-color: #02a4ef;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.navbutton {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #33b5e5;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.navbutton:hover {background-color: #69c5ef;}
+
+.navbutton:active {
+  background-color: #69c5ef;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+td {
+	color: #ffffff;
+}
+
+.logtab {
+	position: absolute;
+	background-color: #333;
+	color: #ffffff;
+	display: none;
+	margin-left: 85px;
+	margin-top: -16px;
+	z-index: 1;
+}
+
+.regtab {
+	position: absolute;
+	background-color: #333;
+	color: #ffffff;
+	display: none;
+	margin-left: 172px;
+	margin-top: -16px;
+	z-index: 1;
+}
+
+.sizetab {
+	position: absolute;
+	background-color: #333;
+	color: #ffffff;
+	display: none;
+	margin-left: 108px;
+	margin-top: -16px;
+	z-index: 1;
+}
+
+.customercart {
+	background-color: lightblue;
+    width: 90%;
+    height: 85%;
+    overflow: auto;
+	margin-left: 5%;
+}
+
+div.customercart a{
+	color: red;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+div.customercart a:hover{
+	background-color: red;
+	color: lightblue;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+div.customercart td,th{
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+}
